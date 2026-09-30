@@ -1,0 +1,1362 @@
+{
+  "users": [
+    {
+      "id": "user_alex",
+      "name": "Alex Sharma",
+      "email": "alex.sharma@example.com",
+      "user_type": "salaried",
+      "currency": "INR",
+      "monthly_income": 65000,
+      "primary_goal": "Build emergency fund & save for new laptop",
+      "created_at": "2026-03-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "user_priya",
+      "name": "Priya Patel",
+      "email": "priya.patel@student.edu",
+      "user_type": "student",
+      "currency": "INR",
+      "monthly_income": 12000,
+      "primary_goal": "Control discretionary dining & save for tech gear",
+      "created_at": "2026-04-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "user_rohan",
+      "name": "Rohan Verma",
+      "email": "rohan@creativelabs.io",
+      "user_type": "freelancer",
+      "currency": "INR",
+      "monthly_income": 95000,
+      "primary_goal": "Build 6-month variable income runway buffer",
+      "created_at": "2026-02-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "user_sunita",
+      "name": "Sunita Rao",
+      "email": "sunita.family@household.in",
+      "user_type": "household",
+      "currency": "INR",
+      "monthly_income": 110000,
+      "primary_goal": "Consolidate family grocery & schooling budget",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    }
+  ],
+  "incomes": [
+    {
+      "id": "inc_alex_2026_04_sal",
+      "user_id": "user_alex",
+      "amount": 60000,
+      "source": "TechCorp Solutions",
+      "income_type": "salary",
+      "date": "2026-04-01",
+      "description": "Monthly Salary Credit - April",
+      "created_at": "2026-04-01T09:00:00.000Z"
+    },
+    {
+      "id": "inc_alex_2026_05_sal",
+      "user_id": "user_alex",
+      "amount": 60000,
+      "source": "TechCorp Solutions",
+      "income_type": "salary",
+      "date": "2026-05-01",
+      "description": "Monthly Salary Credit - May",
+      "created_at": "2026-05-01T09:00:00.000Z"
+    },
+    {
+      "id": "inc_alex_2026_06_sal",
+      "user_id": "user_alex",
+      "amount": 60000,
+      "source": "TechCorp Solutions",
+      "income_type": "salary",
+      "date": "2026-06-01",
+      "description": "Monthly Salary Credit - June",
+      "created_at": "2026-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "inc_alex_2026_07_sal",
+      "user_id": "user_alex",
+      "amount": 62000,
+      "source": "TechCorp Solutions",
+      "income_type": "salary",
+      "date": "2026-07-01",
+      "description": "Monthly Salary Credit - July",
+      "created_at": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "id": "inc_alex_2026_07_perf",
+      "user_id": "user_alex",
+      "amount": 8000,
+      "source": "Quarterly Bonus",
+      "income_type": "bonus",
+      "date": "2026-07-15",
+      "description": "Mid-year performance recognition award",
+      "created_at": "2026-07-15T10:00:00.000Z"
+    },
+    {
+      "id": "inc_alex_2026_08_sal",
+      "user_id": "user_alex",
+      "amount": 62000,
+      "source": "TechCorp Solutions",
+      "income_type": "salary",
+      "date": "2026-08-01",
+      "description": "Monthly Salary Credit - August",
+      "created_at": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "id": "inc_alex_2026_09_sal",
+      "user_id": "user_alex",
+      "amount": 65000,
+      "source": "TechCorp Solutions",
+      "income_type": "salary",
+      "date": "2026-09-01",
+      "description": "Monthly Salary Credit - September",
+      "created_at": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "inc_priya_sep",
+      "user_id": "user_priya",
+      "amount": 12000,
+      "source": "Monthly Family Allowance",
+      "income_type": "allowance",
+      "date": "2026-09-02",
+      "description": "College hostel allowance and living stipend",
+      "created_at": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "id": "inc_rohan_1",
+      "user_id": "user_rohan",
+      "amount": 45000,
+      "source": "Alpha FinTech App Design Retainer",
+      "income_type": "freelance",
+      "date": "2026-09-04",
+      "description": "Milestone 2 payment",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "inc_rohan_2",
+      "user_id": "user_rohan",
+      "amount": 32000,
+      "source": "Beta Commerce UI Revamp",
+      "income_type": "freelance",
+      "date": "2026-09-15",
+      "description": "Design system delivery",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "inc_rohan_3",
+      "user_id": "user_rohan",
+      "amount": 18000,
+      "source": "Design Consultation & Audit",
+      "income_type": "business",
+      "date": "2026-09-24",
+      "description": "Hourly architectural review",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "inc_sunita_1",
+      "user_id": "user_sunita",
+      "amount": 75000,
+      "source": "Spouse Senior Engineer Salary",
+      "income_type": "salary",
+      "date": "2026-09-01",
+      "description": "Primary household salary pool",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "inc_sunita_2",
+      "user_id": "user_sunita",
+      "amount": 35000,
+      "source": "Curriculum Consulting Retainer",
+      "income_type": "business",
+      "date": "2026-09-05",
+      "description": "Secondary educational consultancy",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_alex_2026_04_0",
+      "user_id": "user_alex",
+      "amount": 15000,
+      "category": "Housing",
+      "description": "Apartment Monthly Rent",
+      "date": "2026-04-02",
+      "payment_method": "Bank Transfer",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-02T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_1",
+      "user_id": "user_alex",
+      "amount": 3724,
+      "category": "Food",
+      "description": "Weekly Supermarket & Organic Groceries",
+      "date": "2026-04-05",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-05T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_2",
+      "user_id": "user_alex",
+      "amount": 2646,
+      "category": "Food",
+      "description": "Weekend Cafes & Dining Out",
+      "date": "2026-04-14",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-14T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_3",
+      "user_id": "user_alex",
+      "amount": 2940,
+      "category": "Transport",
+      "description": "Metro Card Reload & Fuel",
+      "date": "2026-04-08",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-08T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_4",
+      "user_id": "user_alex",
+      "amount": 3920,
+      "category": "Shopping",
+      "description": "Apparel & Seasonal Essentials",
+      "date": "2026-04-18",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-18T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_5",
+      "user_id": "user_alex",
+      "amount": 2450,
+      "category": "Entertainment",
+      "description": "Concert & Movie Passes",
+      "date": "2026-04-20",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-20T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_6",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Utilities",
+      "description": "Electricity & High-speed Broadband",
+      "date": "2026-04-10",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-10T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_7",
+      "user_id": "user_alex",
+      "amount": 2000,
+      "category": "Education",
+      "description": "Cloud Certifications & Books",
+      "date": "2026-04-12",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-12T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_8",
+      "user_id": "user_alex",
+      "amount": 1500,
+      "category": "Healthcare",
+      "description": "Health Checkup & Vitamins",
+      "date": "2026-04-22",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-22T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_9",
+      "user_id": "user_alex",
+      "amount": 1000,
+      "category": "Subscriptions",
+      "description": "Cloud Storage & Media Streaming",
+      "date": "2026-04-03",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-03T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_04_10",
+      "user_id": "user_alex",
+      "amount": 1750,
+      "category": "Other",
+      "description": "Home Maintenance & Miscellaneous",
+      "date": "2026-04-25",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-04-25T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_0",
+      "user_id": "user_alex",
+      "amount": 15000,
+      "category": "Housing",
+      "description": "Apartment Monthly Rent",
+      "date": "2026-05-02",
+      "payment_method": "Bank Transfer",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-02T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_1",
+      "user_id": "user_alex",
+      "amount": 3990,
+      "category": "Food",
+      "description": "Weekly Supermarket & Organic Groceries",
+      "date": "2026-05-05",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-05T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_2",
+      "user_id": "user_alex",
+      "amount": 2835,
+      "category": "Food",
+      "description": "Weekend Cafes & Dining Out",
+      "date": "2026-05-14",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-14T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_3",
+      "user_id": "user_alex",
+      "amount": 3150,
+      "category": "Transport",
+      "description": "Metro Card Reload & Fuel",
+      "date": "2026-05-08",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-08T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_4",
+      "user_id": "user_alex",
+      "amount": 4200,
+      "category": "Shopping",
+      "description": "Apparel & Seasonal Essentials",
+      "date": "2026-05-18",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-18T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_5",
+      "user_id": "user_alex",
+      "amount": 2625,
+      "category": "Entertainment",
+      "description": "Concert & Movie Passes",
+      "date": "2026-05-20",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-20T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_6",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Utilities",
+      "description": "Electricity & High-speed Broadband",
+      "date": "2026-05-10",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-10T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_7",
+      "user_id": "user_alex",
+      "amount": 2000,
+      "category": "Education",
+      "description": "Cloud Certifications & Books",
+      "date": "2026-05-12",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-12T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_8",
+      "user_id": "user_alex",
+      "amount": 1500,
+      "category": "Healthcare",
+      "description": "Health Checkup & Vitamins",
+      "date": "2026-05-22",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-22T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_9",
+      "user_id": "user_alex",
+      "amount": 1000,
+      "category": "Subscriptions",
+      "description": "Cloud Storage & Media Streaming",
+      "date": "2026-05-03",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-03T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_05_10",
+      "user_id": "user_alex",
+      "amount": 1750,
+      "category": "Other",
+      "description": "Home Maintenance & Miscellaneous",
+      "date": "2026-05-25",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-05-25T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_0",
+      "user_id": "user_alex",
+      "amount": 15000,
+      "category": "Housing",
+      "description": "Apartment Monthly Rent",
+      "date": "2026-06-02",
+      "payment_method": "Bank Transfer",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-02T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_1",
+      "user_id": "user_alex",
+      "amount": 3610,
+      "category": "Food",
+      "description": "Weekly Supermarket & Organic Groceries",
+      "date": "2026-06-05",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-05T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_2",
+      "user_id": "user_alex",
+      "amount": 2565,
+      "category": "Food",
+      "description": "Weekend Cafes & Dining Out",
+      "date": "2026-06-14",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-14T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_3",
+      "user_id": "user_alex",
+      "amount": 2850,
+      "category": "Transport",
+      "description": "Metro Card Reload & Fuel",
+      "date": "2026-06-08",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-08T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_4",
+      "user_id": "user_alex",
+      "amount": 3800,
+      "category": "Shopping",
+      "description": "Apparel & Seasonal Essentials",
+      "date": "2026-06-18",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-18T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_5",
+      "user_id": "user_alex",
+      "amount": 2375,
+      "category": "Entertainment",
+      "description": "Concert & Movie Passes",
+      "date": "2026-06-20",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-20T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_6",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Utilities",
+      "description": "Electricity & High-speed Broadband",
+      "date": "2026-06-10",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-10T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_7",
+      "user_id": "user_alex",
+      "amount": 2000,
+      "category": "Education",
+      "description": "Cloud Certifications & Books",
+      "date": "2026-06-12",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-12T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_8",
+      "user_id": "user_alex",
+      "amount": 1500,
+      "category": "Healthcare",
+      "description": "Health Checkup & Vitamins",
+      "date": "2026-06-22",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-22T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_9",
+      "user_id": "user_alex",
+      "amount": 1000,
+      "category": "Subscriptions",
+      "description": "Cloud Storage & Media Streaming",
+      "date": "2026-06-03",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-03T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_06_10",
+      "user_id": "user_alex",
+      "amount": 1750,
+      "category": "Other",
+      "description": "Home Maintenance & Miscellaneous",
+      "date": "2026-06-25",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-06-25T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_0",
+      "user_id": "user_alex",
+      "amount": 15000,
+      "category": "Housing",
+      "description": "Apartment Monthly Rent",
+      "date": "2026-07-02",
+      "payment_method": "Bank Transfer",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-02T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_1",
+      "user_id": "user_alex",
+      "amount": 3876,
+      "category": "Food",
+      "description": "Weekly Supermarket & Organic Groceries",
+      "date": "2026-07-05",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-05T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_2",
+      "user_id": "user_alex",
+      "amount": 2754,
+      "category": "Food",
+      "description": "Weekend Cafes & Dining Out",
+      "date": "2026-07-14",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-14T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_3",
+      "user_id": "user_alex",
+      "amount": 3060,
+      "category": "Transport",
+      "description": "Metro Card Reload & Fuel",
+      "date": "2026-07-08",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-08T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_4",
+      "user_id": "user_alex",
+      "amount": 4080,
+      "category": "Shopping",
+      "description": "Apparel & Seasonal Essentials",
+      "date": "2026-07-18",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-18T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_5",
+      "user_id": "user_alex",
+      "amount": 2550,
+      "category": "Entertainment",
+      "description": "Concert & Movie Passes",
+      "date": "2026-07-20",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-20T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_6",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Utilities",
+      "description": "Electricity & High-speed Broadband",
+      "date": "2026-07-10",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-10T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_7",
+      "user_id": "user_alex",
+      "amount": 2000,
+      "category": "Education",
+      "description": "Cloud Certifications & Books",
+      "date": "2026-07-12",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-12T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_8",
+      "user_id": "user_alex",
+      "amount": 1500,
+      "category": "Healthcare",
+      "description": "Health Checkup & Vitamins",
+      "date": "2026-07-22",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-22T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_9",
+      "user_id": "user_alex",
+      "amount": 1000,
+      "category": "Subscriptions",
+      "description": "Cloud Storage & Media Streaming",
+      "date": "2026-07-03",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-03T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_07_10",
+      "user_id": "user_alex",
+      "amount": 1750,
+      "category": "Other",
+      "description": "Home Maintenance & Miscellaneous",
+      "date": "2026-07-25",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-07-25T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_0",
+      "user_id": "user_alex",
+      "amount": 15000,
+      "category": "Housing",
+      "description": "Apartment Monthly Rent",
+      "date": "2026-08-02",
+      "payment_method": "Bank Transfer",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-02T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_1",
+      "user_id": "user_alex",
+      "amount": 3800,
+      "category": "Food",
+      "description": "Weekly Supermarket & Organic Groceries",
+      "date": "2026-08-05",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-05T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_2",
+      "user_id": "user_alex",
+      "amount": 2700,
+      "category": "Food",
+      "description": "Weekend Cafes & Dining Out",
+      "date": "2026-08-14",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-14T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_3",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Transport",
+      "description": "Metro Card Reload & Fuel",
+      "date": "2026-08-08",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-08T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_4",
+      "user_id": "user_alex",
+      "amount": 4000,
+      "category": "Shopping",
+      "description": "Apparel & Seasonal Essentials",
+      "date": "2026-08-18",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-18T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_5",
+      "user_id": "user_alex",
+      "amount": 2500,
+      "category": "Entertainment",
+      "description": "Concert & Movie Passes",
+      "date": "2026-08-20",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-20T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_6",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Utilities",
+      "description": "Electricity & High-speed Broadband",
+      "date": "2026-08-10",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-10T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_7",
+      "user_id": "user_alex",
+      "amount": 2000,
+      "category": "Education",
+      "description": "Cloud Certifications & Books",
+      "date": "2026-08-12",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-12T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_8",
+      "user_id": "user_alex",
+      "amount": 1500,
+      "category": "Healthcare",
+      "description": "Health Checkup & Vitamins",
+      "date": "2026-08-22",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-22T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_9",
+      "user_id": "user_alex",
+      "amount": 1000,
+      "category": "Subscriptions",
+      "description": "Cloud Storage & Media Streaming",
+      "date": "2026-08-03",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-03T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_08_10",
+      "user_id": "user_alex",
+      "amount": 1750,
+      "category": "Other",
+      "description": "Home Maintenance & Miscellaneous",
+      "date": "2026-08-25",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-08-25T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_0",
+      "user_id": "user_alex",
+      "amount": 15000,
+      "category": "Housing",
+      "description": "Apartment Monthly Rent",
+      "date": "2026-09-02",
+      "payment_method": "Bank Transfer",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-02T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_1",
+      "user_id": "user_alex",
+      "amount": 3648,
+      "category": "Food",
+      "description": "Weekly Supermarket & Organic Groceries",
+      "date": "2026-09-05",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-05T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_2",
+      "user_id": "user_alex",
+      "amount": 2592,
+      "category": "Food",
+      "description": "Weekend Cafes & Dining Out",
+      "date": "2026-09-14",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-14T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_3",
+      "user_id": "user_alex",
+      "amount": 2880,
+      "category": "Transport",
+      "description": "Metro Card Reload & Fuel",
+      "date": "2026-09-08",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-08T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_4",
+      "user_id": "user_alex",
+      "amount": 3840,
+      "category": "Shopping",
+      "description": "Apparel & Seasonal Essentials",
+      "date": "2026-09-18",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-18T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_5",
+      "user_id": "user_alex",
+      "amount": 2400,
+      "category": "Entertainment",
+      "description": "Concert & Movie Passes",
+      "date": "2026-09-20",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-20T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_6",
+      "user_id": "user_alex",
+      "amount": 3000,
+      "category": "Utilities",
+      "description": "Electricity & High-speed Broadband",
+      "date": "2026-09-10",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-10T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_7",
+      "user_id": "user_alex",
+      "amount": 2000,
+      "category": "Education",
+      "description": "Cloud Certifications & Books",
+      "date": "2026-09-12",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-12T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_8",
+      "user_id": "user_alex",
+      "amount": 1500,
+      "category": "Healthcare",
+      "description": "Health Checkup & Vitamins",
+      "date": "2026-09-22",
+      "payment_method": "Debit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-22T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_9",
+      "user_id": "user_alex",
+      "amount": 1000,
+      "category": "Subscriptions",
+      "description": "Cloud Storage & Media Streaming",
+      "date": "2026-09-03",
+      "payment_method": "Credit Card",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-03T14:20:00.000Z"
+    },
+    {
+      "id": "exp_alex_2026_09_10",
+      "user_id": "user_alex",
+      "amount": 1750,
+      "category": "Other",
+      "description": "Home Maintenance & Miscellaneous",
+      "date": "2026-09-25",
+      "payment_method": "UPI",
+      "notes": "Verified transaction",
+      "created_at": "2026-09-25T14:20:00.000Z"
+    },
+    {
+      "id": "exp_priya_sep_0",
+      "user_id": "user_priya",
+      "amount": 4200,
+      "category": "Food",
+      "description": "Hostel Mess & Evening Tea",
+      "date": "2026-09-04",
+      "payment_method": "UPI",
+      "notes": "College daily tracker",
+      "created_at": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "exp_priya_sep_1",
+      "user_id": "user_priya",
+      "amount": 1800,
+      "category": "Education",
+      "description": "Semester Reference Books & Printing",
+      "date": "2026-09-08",
+      "payment_method": "UPI",
+      "notes": "College daily tracker",
+      "created_at": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "exp_priya_sep_2",
+      "user_id": "user_priya",
+      "amount": 1200,
+      "category": "Transport",
+      "description": "Student Bus Pass & Campus Rickshaw",
+      "date": "2026-09-10",
+      "payment_method": "Cash",
+      "notes": "College daily tracker",
+      "created_at": "2026-09-10T12:00:00.000Z"
+    },
+    {
+      "id": "exp_priya_sep_3",
+      "user_id": "user_priya",
+      "amount": 599,
+      "category": "Utilities",
+      "description": "Mobile Data Pack & Hostelite Wifi",
+      "date": "2026-09-12",
+      "payment_method": "UPI",
+      "notes": "College daily tracker",
+      "created_at": "2026-09-12T12:00:00.000Z"
+    },
+    {
+      "id": "exp_priya_sep_4",
+      "user_id": "user_priya",
+      "amount": 1400,
+      "category": "Entertainment",
+      "description": "College Fest & Weekend Movie",
+      "date": "2026-09-18",
+      "payment_method": "UPI",
+      "notes": "College daily tracker",
+      "created_at": "2026-09-18T12:00:00.000Z"
+    },
+    {
+      "id": "exp_priya_sep_5",
+      "user_id": "user_priya",
+      "amount": 850,
+      "category": "Shopping",
+      "description": "Stationery & Project Supplies",
+      "date": "2026-09-22",
+      "payment_method": "Cash",
+      "notes": "College daily tracker",
+      "created_at": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "exp_rohan_sep_0",
+      "user_id": "user_rohan",
+      "amount": 18000,
+      "category": "Housing",
+      "description": "Studio Apartment & Home Office",
+      "date": "2026-09-03",
+      "payment_method": "Bank Transfer",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_rohan_sep_1",
+      "user_id": "user_rohan",
+      "amount": 7800,
+      "category": "Food",
+      "description": "Groceries & Co-working Lunches",
+      "date": "2026-09-08",
+      "payment_method": "Credit Card",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_rohan_sep_2",
+      "user_id": "user_rohan",
+      "amount": 6500,
+      "category": "Subscriptions",
+      "description": "Figma Org, Adobe CC, AI Tools",
+      "date": "2026-09-05",
+      "payment_method": "Credit Card",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_rohan_sep_3",
+      "user_id": "user_rohan",
+      "amount": 3400,
+      "category": "Transport",
+      "description": "Cab fares for client syncs",
+      "date": "2026-09-16",
+      "payment_method": "UPI",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_rohan_sep_4",
+      "user_id": "user_rohan",
+      "amount": 3800,
+      "category": "Utilities",
+      "description": "Gigabit Fiber & Studio Power",
+      "date": "2026-09-11",
+      "payment_method": "UPI",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_rohan_sep_5",
+      "user_id": "user_rohan",
+      "amount": 3500,
+      "category": "Healthcare",
+      "description": "Health Insurance Premium",
+      "date": "2026-09-20",
+      "payment_method": "Bank Transfer",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_sunita_sep_0",
+      "user_id": "user_sunita",
+      "amount": 26000,
+      "category": "Housing",
+      "description": "Society Maintenance & Home EMI",
+      "date": "2026-09-02",
+      "payment_method": "Bank Transfer",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_sunita_sep_1",
+      "user_id": "user_sunita",
+      "amount": 21500,
+      "category": "Food",
+      "description": "Monthly Family Grocery & Dairy",
+      "date": "2026-09-06",
+      "payment_method": "Credit Card",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_sunita_sep_2",
+      "user_id": "user_sunita",
+      "amount": 17500,
+      "category": "Education",
+      "description": "Children Term Tuition & Activity Classes",
+      "date": "2026-09-09",
+      "payment_method": "Bank Transfer",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_sunita_sep_3",
+      "user_id": "user_sunita",
+      "amount": 6200,
+      "category": "Utilities",
+      "description": "Electricity, LPG, Water & Fiber",
+      "date": "2026-09-12",
+      "payment_method": "UPI",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_sunita_sep_4",
+      "user_id": "user_sunita",
+      "amount": 7200,
+      "category": "Transport",
+      "description": "Family Car Fuel & School Van Fee",
+      "date": "2026-09-15",
+      "payment_method": "Credit Card",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "exp_sunita_sep_5",
+      "user_id": "user_sunita",
+      "amount": 4800,
+      "category": "Healthcare",
+      "description": "Pediatric Checkup & Monthly Medicines",
+      "date": "2026-09-21",
+      "payment_method": "Debit Card",
+      "created_at": "2026-09-30T04:00:00.000Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bgt_alex_2026_9_housing",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Housing",
+      "limit_amount": 15000,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_food",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Food",
+      "limit_amount": 6000,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_transport",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Transport",
+      "limit_amount": 3500,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_shopping",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Shopping",
+      "limit_amount": 4500,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_entertainment",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Entertainment",
+      "limit_amount": 2000,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_utilities",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Utilities",
+      "limit_amount": 3200,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_education",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Education",
+      "limit_amount": 2500,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_healthcare",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Healthcare",
+      "limit_amount": 2000,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_subscriptions",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Subscriptions",
+      "limit_amount": 1200,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_alex_2026_9_other",
+      "user_id": "user_alex",
+      "month": 9,
+      "year": 2026,
+      "category": "Other",
+      "limit_amount": 2500,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "bgt_priya_food",
+      "user_id": "user_priya",
+      "month": 9,
+      "year": 2026,
+      "category": "Food",
+      "limit_amount": 4500,
+      "created_at": "2026-09-30T04:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "bgt_priya_edu",
+      "user_id": "user_priya",
+      "month": 9,
+      "year": 2026,
+      "category": "Education",
+      "limit_amount": 2000,
+      "created_at": "2026-09-30T04:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "bgt_priya_ent",
+      "user_id": "user_priya",
+      "month": 9,
+      "year": 2026,
+      "category": "Entertainment",
+      "limit_amount": 1500,
+      "created_at": "2026-09-30T04:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    }
+  ],
+  "savings_goals": [
+    {
+      "id": "goal_alex_emergency",
+      "user_id": "user_alex",
+      "name": "Emergency Fund (6 Months)",
+      "target_amount": 100000,
+      "current_amount": 45000,
+      "target_date": "2027-03-31",
+      "monthly_contribution": 7000,
+      "icon": "ShieldCheck",
+      "created_at": "2026-03-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "goal_alex_laptop",
+      "user_id": "user_alex",
+      "name": "Workstation Laptop Upgrade",
+      "target_amount": 60000,
+      "current_amount": 32000,
+      "target_date": "2026-12-15",
+      "monthly_contribution": 5000,
+      "icon": "Laptop",
+      "created_at": "2026-05-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "goal_priya_cert",
+      "user_id": "user_priya",
+      "name": "AWS Cloud Certification & Tech Prep",
+      "target_amount": 15000,
+      "current_amount": 5200,
+      "target_date": "2027-01-20",
+      "monthly_contribution": 1500,
+      "icon": "GraduationCap",
+      "created_at": "2026-04-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "goal_rohan_runway",
+      "user_id": "user_rohan",
+      "name": "6-Month Variable Runway Buffer",
+      "target_amount": 300000,
+      "current_amount": 185000,
+      "target_date": "2027-06-30",
+      "monthly_contribution": 25000,
+      "icon": "ShieldAlert",
+      "created_at": "2026-02-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    },
+    {
+      "id": "goal_sunita_reno",
+      "user_id": "user_sunita",
+      "name": "Home Renovation & Rain-Day Reserve",
+      "target_amount": 400000,
+      "current_amount": 210000,
+      "target_date": "2027-05-31",
+      "monthly_contribution": 20000,
+      "icon": "Home",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-30T04:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_alex_1",
+      "user_id": "user_alex",
+      "title": "Food budget is 85% used",
+      "message": "You have spent ₹5,240 of your ₹6,000 monthly food allowance with 5 days remaining in September.",
+      "type": "budget",
+      "is_read": false,
+      "created_at": "2026-09-25T10:15:00.000Z"
+    },
+    {
+      "id": "notif_alex_2",
+      "user_id": "user_alex",
+      "title": "Savings Milestone Achieved",
+      "message": "Your Emergency Fund has crossed ₹45,000 (45% of your total ₹1,00,000 goal)!",
+      "type": "savings",
+      "is_read": false,
+      "created_at": "2026-09-22T08:30:00.000Z"
+    },
+    {
+      "id": "notif_alex_3",
+      "user_id": "user_alex",
+      "title": "AI Monthly Financial Report Ready",
+      "message": "Your September financial summary and savings analysis are available for review.",
+      "type": "tip",
+      "is_read": true,
+      "created_at": "2026-09-28T09:00:00.000Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_alex_1",
+      "user_id": "user_alex",
+      "title": "Spending Analysis & Savings Review",
+      "created_at": "2026-09-26T14:00:00.000Z",
+      "updated_at": "2026-09-30T11:30:09.110Z",
+      "messages": [
+        {
+          "id": "msg_alex_1",
+          "role": "user",
+          "content": "Analyze my spending this month and show me where I can optimize savings.",
+          "created_at": "2026-09-26T14:00:00.000Z"
+        },
+        {
+          "id": "msg_alex_2",
+          "role": "assistant",
+          "content": "Here is your spending analysis for September 2026 based on your verified records:\n\n- **Total Inflow**: ₹65,000\n- **Total Expenses to Date**: ₹40,250\n- **Projected Surplus**: ₹24,750 (approx. **38% savings rate**)\n\n### Key Observations:\n1. **Housing & Fixed Utilities**: ₹18,000 combined (27.7% of income) — healthy and well within the recommended 30% guideline.\n2. **Food & Dining**: ₹6,240 spent against your ₹6,000 limit (104% utilization). Discretionary dining and coffee runs made up ₹2,600 of this.\n3. **Entertainment**: Tracking at ₹2,400 against a ₹2,000 target.\n\n### Actionable Recommendation:\nTrimming ₹1,200 from weekend dining and streaming subscriptions will restore your budget buffer and accelerate your **Emergency Fund** contribution to reach your ₹1,00,000 milestone 3 weeks sooner.\n\n*Educational reminder: FinAdvisor offers planning insights and calculations; consult a certified advisor for personalized investment or tax advice.*",
+          "created_at": "2026-09-26T14:02:00.000Z",
+          "suggested_actions": [
+            "Create a budget for next month",
+            "Adjust Food budget limit",
+            "Calculate emergency runway"
+          ]
+        },
+        {
+          "id": "msg_1790767807211_6f55",
+          "role": "user",
+          "content": "Where am I overspending?",
+          "created_at": "2026-09-30T11:30:07.211Z"
+        },
+        {
+          "id": "msg_1790767809109_006c",
+          "role": "assistant",
+          "content": "### Spending Alert Analysis for September 2026:\n\nYou have **4 category/categories** operating near or above your planned thresholds:\n\n- **Entertainment**: ₹2,400 spent of ₹2,000 (120% utilized)\n- **Food**: ₹6,240 spent of ₹6,000 (104% utilized)\n- **Housing**: ₹15,000 spent of ₹15,000 (100% utilized)\n- **Utilities**: ₹3,000 spent of ₹3,200 (93.75% utilized)\n\n**Actionable Steps to Regain Balance:**\n1. **Pause non-essential transactions** in Entertainment for the remaining days of this month.\n2. Consider transferring a temporary ₹1,000 buffer from categories with surplus room (such as *Education* or *Other*).\n3. Set up weekly milestone checkpoints so discretionary purchases don't accumulate all at once.\n\n*Note: FinAdvisor AI provides educational planning calculations; consult a qualified advisor for personalized legal or investment guidance.*",
+          "created_at": "2026-09-30T11:30:09.110Z",
+          "suggested_actions": [
+            "Where am I overspending?",
+            "How can I save ₹5,000 this month?",
+            "Create a budget for next month"
+          ]
+        }
+      ]
+    }
+  ]
+}
