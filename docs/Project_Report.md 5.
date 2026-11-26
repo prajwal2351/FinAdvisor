@@ -1,1 +1,12 @@
-
+FinAdvisor/
+├── backend_flask/
+├── data/
+├── src/
+├── docs/
+│   ├── README.md
+│   ├── FinAdvisor_Complete_Project_Report.pdf
+│   ├── FinAdvisor_Project_Abstract.pdf
+│   ├── FinAdvisor_System_Architecture.pdf
+│   └── FinAdvisor_Installation_Guide.pdf
+├── README.md
+└── package.json
